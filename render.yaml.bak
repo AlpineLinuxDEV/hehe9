@@ -1,1 +1,10 @@
-
+services:
+  - name: app
+    dockerfile: Dockerfile
+    env:
+      - KEY1=value1
+    ports:
+      - 8080:8080
+    envVars:
+      - key: PORT
+        value: 8080  
