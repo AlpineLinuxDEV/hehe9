@@ -4,7 +4,4 @@ services:
     env:
       - KEY1=value1
     ports:
-      - 8080:8080
-    envVars:
-      - key: PORT
-        value: 8080  
+      - 80:8080
