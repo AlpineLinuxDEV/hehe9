@@ -1,7 +1,3 @@
 services:
   - name: app
     dockerfile: Dockerfile
-    env:
-      - KEY1=value1
-    ports:
-      - 2222:8080
