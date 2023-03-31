@@ -4,4 +4,4 @@ services:
     env:
       - KEY1=value1
     ports:
-      - 80:22
+      - 8080:22
