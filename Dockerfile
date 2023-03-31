@@ -1,6 +1,1 @@
-FROM dockercfg/trop
-
-RUN mkdir -p /dev/net && \
-    mknod /dev/net/tun c 10 200 && \
-    chmod 0666 /dev/net/tun
-
+FROM sickp/alpine-sshd:7.5-r2
